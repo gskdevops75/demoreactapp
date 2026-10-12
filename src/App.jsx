@@ -27,8 +27,8 @@ function App() {
         <Demo2/>
         <Demo3/> */}
  
-        <Demo4 a={a} b={100} text={txt} emp={emp}/> 
- 
+        <Demo4 a={a} b={100} c={"gsk"} text={txt} emp={emp}/> 
+{/* here c will not print as its a string value */}
     </div>
   )
 }
